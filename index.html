@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card--result text--small">
+        <h2 class="text text--faded text--small text--medium_width">
+          Your Result
+        </h2>
+        <div class="result_circle">
+          <h3 class="text text--bold_width text--large">76</h3>
+          <span class="text text--result_denominator">of 100</span>
+        </div>
+
+        <h4 class="text text--medium_width text--medium text--letter_spaced">
+          Great
+        </h4>
+        <p class="text text--faded text--tiny text--line_spaced text--center">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="card--summary">
+        <h2
+          class="text text--medium_width text--small text--dark text--letter_close stats_title"
+        >
+          Summary
+        </h2>
+        <ul class="stats_container text--tiny">
+          <li class="stat_container stat_reaction">
+            <div class="icon_and_name">
+              <img alt="reaction-icon" src="assets/images/icon-reaction.svg" />
+              <h3 class="text text--reaction text--medium_width">Reaction</h3>
+            </div>
+            <div class="score_container">
+              <span class="text text--dark text--bold_width">80</span>
+              <span class="text text--summary_denominator text--medium_width"
+                >/100</span
+              >
+            </div>
+          </li>
+          <li class="stat_container stat_memory">
+            <div class="icon_and_name">
+              <img alt="memory-icon" src="assets/images/icon-memory.svg" />
+              <h3 class="text text--memory text--medium_width">Memory</h3>
+            </div>
+            <div class="score_container">
+              <span class="text text--dark text--bold_width">92</span>
+              <span class="text text--summary_denominator text--bold_width"
+                >/100</span
+              >
+            </div>
+          </li>
+          <li class="stat_container stat_verbal">
+            <div class="icon_and_name">
+              <img alt="verbal-icon" src="assets/images/icon-verbal.svg" />
+              <h3 class="text text--verbal text--medium_width">Verbal</h3>
+            </div>
+            <div class="score_container">
+              <span class="text text--dark text--bold_width">61</span>
+              <span class="text text--summary_denominator text--bold_width"
+                >/100</span
+              >
+            </div>
+          </li>
+          <li class="stat_container stat_visual">
+            <div class="icon_and_name">
+              <img alt="visual-icon" src="assets/images/icon-visual.svg" />
+              <h3 class="text text--visual text--bold_width">Visual</h3>
+            </div>
+            <div class="score_container">
+              <span class="text text--dark text--bold_width">72</span>
+              <span class="text text--summary_denominator text--bold_width"
+                >/100</span
+              >
+            </div>
+          </li>
+        </ul>
+        <button class="btn btn--text_white btn--dark">Continue</button>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
