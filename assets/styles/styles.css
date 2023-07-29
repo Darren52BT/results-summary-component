@@ -252,7 +252,7 @@ html {
     width: 50%;
     height: 60%;
     max-width: 700px;
-    max-height: 600px;
+    max-height: 450px;
     min-width: 500px;
     flex-direction: row;
     align-items: stretch;
